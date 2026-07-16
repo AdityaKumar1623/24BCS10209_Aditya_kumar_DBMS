@@ -1,0 +1,15 @@
+ON DELETE SET NULL & ON UPDATE SET NULL
+ON DELETE SET NULL: When a row is deleted from the parent table, the foreign key column(s) in the related rows of the child table are set to NULL.
+ON UPDATE SET NULL: When the primary key value of a row is updated in the parent table, the corresponding foreign key values in the child table are set to NULL.
+This is useful when the child rows can still exist independently of the parent row, but the relationship is no longer valid.
+It allows you to preserve the child data while indicating that the relationship has been broken.
+It is critical that the foreign key column allows NULL values.
+
+
+Query:
+
+-- Delete John Doe's details from the Customers table
+DELETE FROM Customers WHERE customer_name = 'John Doe';
+
+-- Or, check the changes in the Orders table (after ON DELETE SET NULL)
+SELECT * FROM Orders;
