@@ -1,8 +1,8 @@
 # Experiment 3.1
 
-Name: Pahulpreet Singh
+Name: Aditya Kumar
 
-UID: 24BCS10261
+UID: 24BCS10209
 
 ## Aim
 
