@@ -71,7 +71,7 @@ Great job, keep it up!
 ```
 
 ## Output Screenshot
-![Experiment X Output](Screenshot 2026-07-20 221417.png)
+![exp3](Screenshot 2026-07-20 221417.png)
 
 
 ## Image Explanation
