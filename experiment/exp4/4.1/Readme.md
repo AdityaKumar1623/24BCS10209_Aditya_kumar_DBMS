@@ -1,4 +1,4 @@
-# Experiment: Joins Practice-1  
+# Experiment 4.1: Joins Practice-1  
 
 Name: Aditya Kumar  
 UID: 24BCS10209  
